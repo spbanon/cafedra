@@ -20,8 +20,7 @@ class Book:
 
 class PaperBook(Book):
     def __init__(self, name, author, pages):
-        super().__init__(name, author)
-        self._pages = None  
+        super().__init__(name, author) 
         self.pages = pages  
 
     @property
@@ -43,8 +42,7 @@ class PaperBook(Book):
 
 class AudioBook(Book):
     def __init__(self, name, author, duration):
-        super().__init__(name, author)
-        self._duration = None  
+        super().__init__(name, author) 
         self.duration = duration  
 
     @property
